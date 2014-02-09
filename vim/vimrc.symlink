@@ -1,4 +1,43 @@
-syntax on
+set nocompatible
+filetype off
 
-" Wrap gitcommit file types at the appropriate length
-filetype indent plugin on
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" Let Vundle manage Vundle
+Bundle 'gmarik/vundle'
+
+" Bundles
+Bundle 'scrooloose/nerdtree'
+
+" Colors
+Bundle 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
+
+color tomorrow-night
+
+" Display Settings
+set t_Co=256
+syntax on
+set cursorline
+set number
+set list
+set listchars=tab:▸\ ,trail:⋅,extends:»,precedes:«
+
+" Indentations
+set shiftwidth=2
+set ts=2
+set bs=2
+set shiftround
+set softtabstop=2
+set expandtab
+set smarttab
+set autoindent
+
+" Plugins
+nnoremap <C-g> :NERDTreeToggle<cr>
+let NERDTreeIgnore=['\.pyc$', '\.pyo$', '\.py\$class$', '\.obj$', '\.o$', '\.so$',
+      \ '\.egg$', '^\.git$', '\~$', '\.cmi', '\.cmo']
+let NERDTreeHighlightCursorline=1
+let NERDTreeShowBookmarks=1
+let NERDTreeShowFiles=1
+
