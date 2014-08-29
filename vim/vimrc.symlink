@@ -33,6 +33,12 @@ set expandtab
 set smarttab
 set autoindent
 
+" Disable error bells
+set noerrorbells visualbell t_vb=
+if has('autocmd')
+  autocmd GUIEnter * set visualbell t_vb=
+endif
+
 " Plugins
 nnoremap <C-g> :NERDTreeToggle<cr>
 let NERDTreeIgnore=['\.pyc$', '\.pyo$', '\.py\$class$', '\.obj$', '\.o$', '\.so$',
