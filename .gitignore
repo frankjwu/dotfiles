@@ -1,4 +1,7 @@
-sublime2/User/Package\ Control.sublime-settings
-sublime2/User/Package Control.last-run
+sublime/User/Package\ Control.sublime-settings
+sublime/User/Package\ Control.last-
+sublime/User/Package\ Control.system-ca-bundle
+sublime/sftp_servers
 git/gitconfig.symlink
 zsh/secrets.zsh
+bin/zoo
