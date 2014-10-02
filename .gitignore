@@ -1,7 +1,7 @@
 sublime/User/Package\ Control.sublime-settings
 sublime/User/Package\ Control.last-
 sublime/User/Package\ Control.system-ca-bundle
-sublime/sftp_servers
+sublime/User/sftp_servers
 git/gitconfig.symlink
 zsh/secrets.zsh
 bin/zoo
