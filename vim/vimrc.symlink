@@ -13,7 +13,7 @@ Bundle 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 
 " Colors
 Bundle 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
-color tomorrow-night
+color Tomorrow-Night
 
 " Display Settings
 set t_Co=256
