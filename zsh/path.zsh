@@ -14,7 +14,7 @@ PATH="/Applications/Xcode.app/Contents/Developer/usr/bin:$PATH"
 # https://www.ruby-lang.org
 # Configures PATH for ruby interpreter.
 #
-PATH="/usr/local/opt/ruby/bin:$PATH"
+PATH="$HOME/.rvm/bin:$PATH" # Add RVM to PATH for scripting
 
 # MacPorts
 #
