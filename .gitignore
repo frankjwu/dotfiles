@@ -3,6 +3,14 @@ sublime/User/Package\ Control.last-run
 sublime/User/Package\ Control.system-ca-bundle
 sublime/User/Package Control.cache
 sublime/User/sftp_servers
-git/gitconfig.symlink
+atom.symlink/.apm
+atom.symlink/.node-gyp
+atom.symlink/.storage
+atom.symlink/blob-store
+atom.symlink/compile-cache/
+atom.symlink/packages
+atom.symlink/storage
+atom.symlink/themes
+git/gitconfig.local.symlink
 zsh/secrets.zsh
 bin/zoo
