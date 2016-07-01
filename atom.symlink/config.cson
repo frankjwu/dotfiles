@@ -16,8 +16,15 @@
     ]
   editor:
     fontFamily: "Menlo"
-    fontSize: 16
+    fontSize: 12
   "release-notes":
     viewedVersion: "0.67.0"
+  "spell-check":
+    grammars: [
+      "text.plain"
+      "source.gfm"
+      "text.git-commit"
+      "text.html.basic"
+    ]
   welcome:
     showOnStartup: false
