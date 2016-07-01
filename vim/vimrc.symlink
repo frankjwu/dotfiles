@@ -12,8 +12,8 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 
 " Colors
-Bundle 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
-color Tomorrow-Night
+Plugin 'chriskempson/base16-vim'
+color base16-tomorrow
 
 " Display Settings
 set t_Co=256
@@ -21,8 +21,11 @@ set background=dark
 syntax on
 set cursorline
 set number
+hi LineNr ctermbg=none ctermfg=darkgrey
+hi CursorLineNr ctermfg=white
 set list
 set listchars=tab:▸\ ,trail:⋅,extends:»,precedes:«
+hi SpecialKey ctermfg=darkgrey
 set encoding=utf-8
 set laststatus=2
 let g:Powerline_symbols = 'fancy'

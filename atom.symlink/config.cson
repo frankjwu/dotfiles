@@ -1,0 +1,23 @@
+"*":
+  core:
+    disabledPackages: [
+      "background-tips"
+      "exception-reporting"
+      "metrics"
+    ]
+    ignoredNames: [
+      ".git"
+      ".svn"
+      ".DS_Store"
+    ]
+    themes: [
+      "atom-dark-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+  editor:
+    fontFamily: "Menlo"
+    fontSize: 16
+  "release-notes":
+    viewedVersion: "0.67.0"
+  welcome:
+    showOnStartup: false

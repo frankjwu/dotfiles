@@ -21,4 +21,9 @@ PATH="$HOME/.rvm/bin:$PATH" # Add RVM to PATH for scripting
 # https://guide.macports.org/chunked/installing.shell.html
 # Configures PATH to allow MacPorts in the shell.
 #
-PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+#PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+
+# Torch
+#
+#
+PATH="$HOME/torch/install/bin:$PATH"
